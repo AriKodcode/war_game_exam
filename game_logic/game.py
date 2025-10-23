@@ -24,12 +24,10 @@ def init_game() -> dict:
     }
 
     return game_dict
-print(init_game()["player1"])
+
 
 def play_round(p1: dict, p2: dict):
     player1 = init_game()["player1"]
-    print(player1)
     player2 = init_game()["player2"]
-    print(player2)
     return None
 
